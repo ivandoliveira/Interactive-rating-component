@@ -1,0 +1,129 @@
+:root {
+  --p1: hsl(25, 97%, 53%);
+  --White: hsl(0, 100%, 100%);
+  --Grey-500: hsl(217, 12%, 63%);
+  --Grey-900: hsl(213, 19%, 18%);
+  --Grey-950: hsl(216, 12%, 8%);
+}
+
+h1,
+p,
+ol,
+li,
+btn {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: var(--Grey-950);
+  font-family: "Overpass", "sans-serif";
+  color: var(--White);
+}
+/* Rating state */
+
+.rating-state,
+.tanks-state {
+  max-width: 360px;
+  margin: 200px auto 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgb(32, 40, 48) 0%,
+    rgba(21, 26, 31, 1) 100%
+  );
+  border-radius: 20px;
+  padding: 24px;
+}
+@media (max-width: 620px) {
+  .rating-state,
+  .tanks-state {
+    margin: 100px auto 0 auto;
+  }
+}
+
+.icon-star {
+  background-color: var(--Grey-900);
+  padding: 14px;
+  border-radius: 50%;
+  margin: 20px 0 20px 0;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--Grey-500);
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.list-rating {
+  display: flex;
+  place-content: space-around;
+  margin-bottom: 30px;
+}
+
+.btn-rating {
+  padding: 15px 20px;
+  border-radius: 50%;
+  background-color: var(--Grey-900);
+  color: var(--Grey-500);
+  border: none;
+}
+
+.btn-rating:hover {
+  background-color: var(--p1);
+  color: var(--Grey-950);
+  cursor: pointer;
+}
+.btn-rating:focus {
+  background-color: var(--White);
+  color: var(--Grey-950);
+}
+
+.btn-submit {
+  background-color: var(--p1);
+  color: var(--Grey-950);
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.btn-submit:hover {
+  background-color: var(--White);
+  cursor: pointer;
+}
+/* Thank you state */
+
+.tanks-state {
+  display: none;
+}
+
+.tks-img {
+  display: block;
+  margin: 20px auto 40px auto;
+}
+.final-note {
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  background-color: var(--Grey-900);
+  color: var(--p1);
+  padding: 10px;
+  border-radius: 50px;
+  margin: 0 auto 40px auto;
+}
+
+.tanks-state h1,
+.tanks-state p {
+  text-align: center;
+}
