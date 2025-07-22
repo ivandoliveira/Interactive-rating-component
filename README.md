@@ -27,11 +27,13 @@ Users should be able to:
 ### Screenshot
 
 - Desktop: 1440px
-  ![](</screenshot/127.0.0.1*5500*(desktop%201440).png)
+
+  ![](</screenshot/127.0.0.1*5500*(desktop%201440).png>)
   ![](</screenshot/127.0.0.1_5500_(desktop%201440)%20(1).png>)
   ![](</screenshot/127.0.0.1_5500_(desktop%201440)%20(2).png>)
 
 - Mobile: 320px
+
   ![](</screenshot/127.0.0.1_5500_(mobile%20320)%20(1).png>)
   ![](</screenshot/127.0.0.1_5500_(mobile%20320).png>)
 
